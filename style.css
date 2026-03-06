@@ -203,7 +203,7 @@ border-radius: 15px;
 }
 .email-box{
   height: 30px;
-  width: 300px;
+  width: 200px;
 }
 .mail{
   background-color: pink;
@@ -216,24 +216,22 @@ row-gap: 5px;
   align-items: center;
 }
 @media screen and (max-width:574px){
+ .container{
+   max-width: 400px;
+ }
 
 .benner{
   flex-direction: column-reverse;
   height: auto;
   text-align: center;
   
+  
 }
 
-.aside{
-  width: 100%;
-}
-
-.inside{
-  width: 100%;
-}
 
 .common{
   flex-direction: column;
+  display: flex;
   height: auto;
   align-items: center;
 }
@@ -241,13 +239,24 @@ row-gap: 5px;
 .b{
   flex-direction: column;
   height: auto;
-  align-items: center;
+  
 }
 
 .f{
   flex-direction: column;
   height: auto;
-  align-items: center;
+  
+}
+.mail{
+  
+  display: flex;
+ height: auto;
+ padding: 10px;
+}
+.inside{
+  height: 300px ;
+  width: 50%;
+  
 }
 
 }
