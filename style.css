@@ -8,7 +8,7 @@
   height: 90%;
   width: 90%;
   padding: 20px;
-  margin: 0 auto;e
+  margin: 0 auto;
 }
 
 .header{
@@ -214,4 +214,40 @@ row-gap: 5px;
 
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width:574px){
+
+.benner{
+  flex-direction: column-reverse;
+  height: auto;
+  text-align: center;
+  
+}
+
+.aside{
+  width: 100%;
+}
+
+.inside{
+  width: 100%;
+}
+
+.common{
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+}
+
+.b{
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+}
+
+.f{
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+}
+
 }
