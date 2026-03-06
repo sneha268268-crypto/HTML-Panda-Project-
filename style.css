@@ -1,0 +1,217 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ 
+}
+.container{
+  height: 90%;
+  width: 90%;
+  padding: 20px;
+  margin: 0 auto;e
+}
+
+.header{
+  background-color:white;
+  height: 30px;
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.benner{
+  background-color: pink;
+  padding: 50px;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.inside{
+width: 30%;
+height: 300px;
+  
+  padding: 0 auto;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.aside{
+  height: 100%;
+  width: 70%;
+  
+  
+  
+  
+}
+.money{
+  color: deeppink;
+  width: 30px;
+}
+.benner-button{
+  background-color: deeppink;
+  color: white;
+  border: none;
+  width: 120px;
+  height: 35px;
+  border-radius: 5px;
+  background-image: linear-gradient(to top,  deeppink, lightpink);
+}
+.image-box{
+  
+  
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.common{
+  
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  border-radius: 10px;
+}
+.watch{
+  height: 100%;
+  padding: 20px;
+  background-color: orange;
+  background-image: linear-gradient(to top, orange, yellow);
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+}
+.bag{
+  height: 100%;
+  padding: 20px;
+  width: 300px;
+  background-color: deeppink;
+  background-image: linear-gradient(to top, deeppink, lightpink);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+}
+.shoes{
+  height: 100%;
+  padding: 20px;
+  width: 300px;
+  background-color: blue;
+  background-image: linear-gradient(to top, blue,lightpink);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  
+}
+.a{
+  height: 30px;
+  width: 50px;
+  background-color: deeppink;
+  display: flex;
+  justify-content: flex-end;
+}
+.b{
+  
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  
+}
+.c{
+ 
+  height: auto;
+  width: 300px;
+border: solid;
+border-radius: 15px;
+}
+.d{
+  
+  height: auto;
+  width: 300px;
+  border: solid;
+  border-radius: 15px;
+}
+.e{
+  height: auto;
+  width: 300px;
+  border: solid;
+  border-radius: 15px;
+}
+.image{
+  padding: 10px;
+  height: 100%;
+  width: 250px;
+  text-align: center;
+  justify-content: center;
+}
+.f{
+  gap: 20px;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.g{
+  
+  height: 100%;
+  width: 300px;
+  border: solid;
+  border-radius: 15px;
+}
+.h{
+  
+height: 100%;
+width: 300px;
+border: solid;
+border-radius: 15px;
+}
+.i{
+ 
+  height: 100%;
+  width: 300px;
+  border: solid;
+  border-radius: 15px;
+}
+.button{
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 130px;
+  border-radius: 5px;
+}
+.email-send{
+  background-color: deeppink;
+  width: 40px;
+  border: none;
+  color: white;
+  height: 30px;
+}
+.email-box{
+  height: 30px;
+  width: 300px;
+}
+.mail{
+  background-color: pink;
+  height: 300px;
+display: flex;
+row-gap: 5px;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
