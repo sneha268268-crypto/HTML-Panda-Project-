@@ -34,7 +34,7 @@
 width: 30%;
 height: 300px;
   
-  padding: 0 auto;
+  padding: 0px;
   display: flex;
   justify-content: center;
   
@@ -200,30 +200,45 @@ border-radius: 15px;
   border: none;
   color: white;
   height: 30px;
+  border-radius: 0px 3px 3px 0px;
 }
 .email-box{
   height: 30px;
   width: 200px;
+  border-radius: 3px 0px 0px 3px;
+  border: none;
 }
 .mail{
   background-color: pink;
   height: 300px;
+  width: 100%;
 display: flex;
 row-gap: 5px;
   flex-direction: column;
 
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
+  
+}
+.email{
+  display: flex;
+  
 }
 @media screen and (max-width:574px){
  .container{
    max-width: 400px;
+   height: auto;
  }
 
 .benner{
+  display: flex;
   flex-direction: column-reverse;
   height: auto;
-  text-align: center;
+  
+  
+  
+  
   
   
 }
@@ -248,10 +263,27 @@ row-gap: 5px;
   
 }
 .mail{
-  
+  width: 105%;
   display: flex;
- height: auto;
- padding: 10px;
+ height: 300px;
+padding: 10px;
+}
+.inside img{
+  width: 300px;
+}
+.aside{
+text-align: center;
+  width: 100%;
+}
+.inside{
+  width: 100%;
+}
+.benner-button{
+  display: flex;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 }
